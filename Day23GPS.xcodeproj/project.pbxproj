@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85A443231ADA4AA50048FF70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A443221ADA4AA50048FF70 /* main.m */; };
+		85A443261ADA4AA50048FF70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A443251ADA4AA50048FF70 /* AppDelegate.m */; };
+		85A443291ADA4AA50048FF70 /* Day23GPS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85A443271ADA4AA50048FF70 /* Day23GPS.xcdatamodeld */; };
+		85A4432C1ADA4AA50048FF70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A4432B1ADA4AA50048FF70 /* ViewController.m */; };
+		85A4432F1ADA4AA50048FF70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85A4432D1ADA4AA50048FF70 /* Main.storyboard */; };
+		85A443311ADA4AA50048FF70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A443301ADA4AA50048FF70 /* Images.xcassets */; };
+		85A443341ADA4AA50048FF70 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85A443321ADA4AA50048FF70 /* LaunchScreen.xib */; };
+		85A443401ADA4AA50048FF70 /* Day23GPSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A4433F1ADA4AA50048FF70 /* Day23GPSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85A4433A1ADA4AA50048FF70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85A443151ADA4AA50048FF70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85A4431C1ADA4AA50048FF70;
+			remoteInfo = Day23GPS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85A4431D1ADA4AA50048FF70 /* Day23GPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day23GPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A443211ADA4AA50048FF70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85A443221ADA4AA50048FF70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85A443241ADA4AA50048FF70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85A443251ADA4AA50048FF70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85A443281ADA4AA50048FF70 /* Day23GPS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Day23GPS.xcdatamodel; sourceTree = "<group>"; };
+		85A4432A1ADA4AA50048FF70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		85A4432B1ADA4AA50048FF70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		85A4432E1ADA4AA50048FF70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85A443301ADA4AA50048FF70 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		85A443331ADA4AA50048FF70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		85A443391ADA4AA50048FF70 /* Day23GPSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day23GPSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A4433E1ADA4AA50048FF70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85A4433F1ADA4AA50048FF70 /* Day23GPSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day23GPSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85A4431A1ADA4AA50048FF70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A443361ADA4AA50048FF70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85A443141ADA4AA50048FF70 = {
+			isa = PBXGroup;
+			children = (
+				85A4431F1ADA4AA50048FF70 /* Day23GPS */,
+				85A4433C1ADA4AA50048FF70 /* Day23GPSTests */,
+				85A4431E1ADA4AA50048FF70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85A4431E1ADA4AA50048FF70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85A4431D1ADA4AA50048FF70 /* Day23GPS.app */,
+				85A443391ADA4AA50048FF70 /* Day23GPSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85A4431F1ADA4AA50048FF70 /* Day23GPS */ = {
+			isa = PBXGroup;
+			children = (
+				85A443241ADA4AA50048FF70 /* AppDelegate.h */,
+				85A443251ADA4AA50048FF70 /* AppDelegate.m */,
+				85A4432A1ADA4AA50048FF70 /* ViewController.h */,
+				85A4432B1ADA4AA50048FF70 /* ViewController.m */,
+				85A4432D1ADA4AA50048FF70 /* Main.storyboard */,
+				85A443301ADA4AA50048FF70 /* Images.xcassets */,
+				85A443321ADA4AA50048FF70 /* LaunchScreen.xib */,
+				85A443271ADA4AA50048FF70 /* Day23GPS.xcdatamodeld */,
+				85A443201ADA4AA50048FF70 /* Supporting Files */,
+			);
+			path = Day23GPS;
+			sourceTree = "<group>";
+		};
+		85A443201ADA4AA50048FF70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85A443211ADA4AA50048FF70 /* Info.plist */,
+				85A443221ADA4AA50048FF70 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85A4433C1ADA4AA50048FF70 /* Day23GPSTests */ = {
+			isa = PBXGroup;
+			children = (
+				85A4433F1ADA4AA50048FF70 /* Day23GPSTests.m */,
+				85A4433D1ADA4AA50048FF70 /* Supporting Files */,
+			);
+			path = Day23GPSTests;
+			sourceTree = "<group>";
+		};
+		85A4433D1ADA4AA50048FF70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85A4433E1ADA4AA50048FF70 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85A4431C1ADA4AA50048FF70 /* Day23GPS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85A443431ADA4AA50048FF70 /* Build configuration list for PBXNativeTarget "Day23GPS" */;
+			buildPhases = (
+				85A443191ADA4AA50048FF70 /* Sources */,
+				85A4431A1ADA4AA50048FF70 /* Frameworks */,
+				85A4431B1ADA4AA50048FF70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Day23GPS;
+			productName = Day23GPS;
+			productReference = 85A4431D1ADA4AA50048FF70 /* Day23GPS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85A443381ADA4AA50048FF70 /* Day23GPSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85A443461ADA4AA50048FF70 /* Build configuration list for PBXNativeTarget "Day23GPSTests" */;
+			buildPhases = (
+				85A443351ADA4AA50048FF70 /* Sources */,
+				85A443361ADA4AA50048FF70 /* Frameworks */,
+				85A443371ADA4AA50048FF70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85A4433B1ADA4AA50048FF70 /* PBXTargetDependency */,
+			);
+			name = Day23GPSTests;
+			productName = Day23GPSTests;
+			productReference = 85A443391ADA4AA50048FF70 /* Day23GPSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85A443151ADA4AA50048FF70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = tarena;
+				TargetAttributes = {
+					85A4431C1ADA4AA50048FF70 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					85A443381ADA4AA50048FF70 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 85A4431C1ADA4AA50048FF70;
+					};
+				};
+			};
+			buildConfigurationList = 85A443181ADA4AA50048FF70 /* Build configuration list for PBXProject "Day23GPS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85A443141ADA4AA50048FF70;
+			productRefGroup = 85A4431E1ADA4AA50048FF70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85A4431C1ADA4AA50048FF70 /* Day23GPS */,
+				85A443381ADA4AA50048FF70 /* Day23GPSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85A4431B1ADA4AA50048FF70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A4432F1ADA4AA50048FF70 /* Main.storyboard in Resources */,
+				85A443341ADA4AA50048FF70 /* LaunchScreen.xib in Resources */,
+				85A443311ADA4AA50048FF70 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A443371ADA4AA50048FF70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85A443191ADA4AA50048FF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A443261ADA4AA50048FF70 /* AppDelegate.m in Sources */,
+				85A443231ADA4AA50048FF70 /* main.m in Sources */,
+				85A4432C1ADA4AA50048FF70 /* ViewController.m in Sources */,
+				85A443291ADA4AA50048FF70 /* Day23GPS.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A443351ADA4AA50048FF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A443401ADA4AA50048FF70 /* Day23GPSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85A4433B1ADA4AA50048FF70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85A4431C1ADA4AA50048FF70 /* Day23GPS */;
+			targetProxy = 85A4433A1ADA4AA50048FF70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85A4432D1ADA4AA50048FF70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85A4432E1ADA4AA50048FF70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85A443321ADA4AA50048FF70 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85A443331ADA4AA50048FF70 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85A443411ADA4AA50048FF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85A443421ADA4AA50048FF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85A443441ADA4AA50048FF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Day23GPS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85A443451ADA4AA50048FF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Day23GPS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85A443471ADA4AA50048FF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Day23GPSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day23GPS.app/Day23GPS";
+			};
+			name = Debug;
+		};
+		85A443481ADA4AA50048FF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Day23GPSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day23GPS.app/Day23GPS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85A443181ADA4AA50048FF70 /* Build configuration list for PBXProject "Day23GPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A443411ADA4AA50048FF70 /* Debug */,
+				85A443421ADA4AA50048FF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85A443431ADA4AA50048FF70 /* Build configuration list for PBXNativeTarget "Day23GPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A443441ADA4AA50048FF70 /* Debug */,
+				85A443451ADA4AA50048FF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		85A443461ADA4AA50048FF70 /* Build configuration list for PBXNativeTarget "Day23GPSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A443471ADA4AA50048FF70 /* Debug */,
+				85A443481ADA4AA50048FF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		85A443271ADA4AA50048FF70 /* Day23GPS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				85A443281ADA4AA50048FF70 /* Day23GPS.xcdatamodel */,
+			);
+			currentVersion = 85A443281ADA4AA50048FF70 /* Day23GPS.xcdatamodel */;
+			path = Day23GPS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 85A443151ADA4AA50048FF70 /* Project object */;
+}
